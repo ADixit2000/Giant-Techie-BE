@@ -1,0 +1,32 @@
+{
+  "studentRegistration": [
+    {
+      "id": "1",
+      "fullName": "Ankit",
+      "email": "dixit@gmail.com",
+      "collegeName": "ManipalUniversity Jaipur",
+      "password": "Ram@1234",
+      "role": "Student"
+    },
+    {
+      "id": "2",
+      "fullName": "AnkitDixit",
+      "email": "ankit@gmail.com",
+      "collegeName": "ManipalUniversity Jaipur",
+      "password": "Ram@1234",
+      "role": "Student"
+    }
+  ],
+  "competitionAPI": [
+    {
+      "id": "f103",
+      "competitionId": 1,
+      "title": "ankit",
+      "description": "ankit",
+      "startDate": "2025-07-06",
+      "endDate": "2025-07-07",
+      "status": "new"
+    }
+  ],
+  "projectAPI": [{}]
+}
