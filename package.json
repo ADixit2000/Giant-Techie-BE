@@ -2,9 +2,7 @@
   "name": "Giant-Tech-API",
   "version": "1.0.0",
   "main": "api/index.js",
-  "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  },
+  "description": "This is a ready RESTful API created with the JSON Server package",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -5,8 +5,16 @@ const middlewares = jsonServer.defaults();
 
 // Do not use listen in serverless environment
 server.use(middlewares);
+server.use(
+  jsonServer.rewriter({
+    "/api/*": "/$1",
+  })
+);
 server.use(router);
 
-module.exports = (req, res) => {
-  server(req, res);
-};
+server.listen(3000, () => {
+  console.log("JSON Server is running");
+});
+
+// Export the Server API
+module.exports = server;
