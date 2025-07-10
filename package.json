@@ -1,7 +1,7 @@
 {
   "name": "Giant-Tech-API",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   },
