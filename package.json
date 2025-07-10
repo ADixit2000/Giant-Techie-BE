@@ -1,11 +1,12 @@
 {
-  "name": "json-server-vercel",
+  "name": "Giant-Tech-API",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "index.js",
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   },
   "scripts": {
-    "dev": "json-server --watch db.json"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
