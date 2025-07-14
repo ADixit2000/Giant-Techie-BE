@@ -56,6 +56,8 @@ namespace Giant_Techie_BE
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
             app.UseCors("AllowAll");
